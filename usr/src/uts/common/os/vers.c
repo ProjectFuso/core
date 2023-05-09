@@ -32,5 +32,5 @@
 #include <sys/utsname.h>
 
 struct utsname utsname = {
-	"SunOS", "", UTS_RELEASE, UTS_VERSION, UTS_PLATFORM
+	"Fuso", "", UTS_RELEASE, UTS_VERSION, UTS_PLATFORM
 };
