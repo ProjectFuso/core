@@ -26,7 +26,7 @@
 # Copyright (c) 2019, Joyent, Inc.
 #
 
-CPPFLAGS.sm=	$(CPPFLAGS.master) -DSOLARIS=2$(RELEASE_MINOR)00 \
+CPPFLAGS.sm=	$(CPPFLAGS.master) -DSOLARIS=21100 \
 		-D_FILE_OFFSET_BITS=64
 CERRWARN +=	-_gcc=-Wno-clobbered
 CERRWARN +=	-_gcc=-Wno-parentheses

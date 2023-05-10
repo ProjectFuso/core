@@ -28,7 +28,7 @@
 
 # Platform-specific config
 # Note that "HOSTTYPE" matches the value used by AT&T upstream.
-DLLPLATFORMCPPFLAGS= '-DHOSTTYPE="sol$(RELEASE_MINOR).sun4"'
+DLLPLATFORMCPPFLAGS= '-DHOSTTYPE="sol11.sun4"'
 
 include ../Makefile.com
 

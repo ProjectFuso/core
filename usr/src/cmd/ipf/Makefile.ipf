@@ -32,7 +32,7 @@ COMMONIPF=	$(SRC)/uts/common/inet/ipf
 KERNELIPF=	$(SRC)/uts/common/inet/pfil
 
 CPPFLAGS	+= -I$(COMMONIPF) -I$(KERNELIPF) -DSUNDDI -DUSE_INET6 \
-		   -DSOLARIS2=$(RELEASE_MINOR)
+		   -DSOLARIS2=11
 CERRWARN	+= -_gcc=-Wno-unused-variable
 CERRWARN	+= -_gcc=-Wno-type-limits
 CERRWARN	+= $(CNOWARN_UNINIT)
