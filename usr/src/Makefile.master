@@ -138,6 +138,9 @@ JAVA_ROOT=	/usr/java
 # string in the environment to override.
 BLD_JAVA_11=	$(POUND_SIGN)
 
+# Set JAVA_TOOL_OPTIONS to let java know we are a solaris decendant
+JAVA_TOOL_OPTIONS=	-Dos.name=SunOS -Dos.version=5.11
+
 GNUC_ROOT=	/usr/gcc/10
 GCCLIBDIR=	$(GNUC_ROOT)/lib
 GCCLIBDIR64=	$(GNUC_ROOT)/lib/$(MACH64)
