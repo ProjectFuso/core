@@ -49,7 +49,7 @@
 #include <sys/utsname.h>
 #include <sys/systeminfo.h>
 
-#define	OS_NAME "illumos"
+#define	OS_NAME "ProjectFuso"
 
 static void usage(void);
 

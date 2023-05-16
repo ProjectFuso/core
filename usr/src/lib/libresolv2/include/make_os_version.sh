@@ -14,9 +14,9 @@ cat <<EOF > new_os_version.h
 #ifndef OS_VERSION_H
 #define OS_VERSION_H
 
-#define SUNOS_$OS_VERSION
-#define OS_MAJOR $OS_MAJOR
-#define OS_MINOR $OS_MINOR
+#define SUNOS_5_11
+#define OS_MAJOR 5
+#define OS_MINOR 11
 
 #endif
 EOF

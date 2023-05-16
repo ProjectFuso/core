@@ -28,7 +28,7 @@
 
 # Platform-specific config
 # Note that "HOSTTYPE" matches the value used by AT&T upstream.
-ASTPLATFORMCPPFLAGS= '-DHOSTTYPE="sol$(RELEASE_MINOR).i386"'
+ASTPLATFORMCPPFLAGS= '-DHOSTTYPE="sol$(SUNOS_MINOR).i386"'
 
 # platform-specific sources
 OBJECTS= conftab.o lctab.o

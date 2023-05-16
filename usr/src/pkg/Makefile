@@ -41,7 +41,7 @@ SHELL= /usr/bin/ksh93
 # of how it was installed, set SUPPRESSPKGDEP=true in the build
 # environment.
 #
-SUPPRESSPKGDEP= false
+SUPPRESSPKGDEP= true
 
 #
 # Comment this line out or set "PKGDEBUG=" in your build environment
@@ -137,8 +137,8 @@ PKGPUBLISHER= $(PKGPUBLISHER_REDIST)
 #
 # To get these defaults, manifests should simply refer to $(PKGVERS).
 #
-PKGVERS_COMPONENT= 0.$(RELEASE)
-PKGVERS_BUILTON= $(RELEASE)
+PKGVERS_COMPONENT= 0.$(FUSO_SNAPSHOT)
+PKGVERS_BUILTON= $(FUSO_SNAPSHOT)
 PKGVERS_BRANCH= 999999.1
 PKGVERS= $(PKGVERS_COMPONENT),$(PKGVERS_BUILTON)-$(PKGVERS_BRANCH)
 

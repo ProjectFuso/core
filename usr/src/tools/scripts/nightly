@@ -640,6 +640,9 @@ unset ARCH
 unset CLASSPATH
 unset NAME
 
+# Set JAVA_TOOL_OPTIONS to let java know we are a solaris decendant
+export JAVA_TOOL_OPTIONS="-Dos.name=SunOS -Dos.version=5.11"
+
 #
 # To get ONBLD_TOOLS from the environment, it must come from the env file.
 # If it comes interactively, it is generally TOOLS_PROTO, which will be
