@@ -1,3 +1,17 @@
+# Project direction
+
+Read the project direction in `README.md` before proposing or implementing
+changes. This repository is Project Fuso's independent illumos fork, derived
+from OmniOS.
+
+- Evaluate inherited Solaris interfaces and behavior against Fuso's goals.
+  Treat compatibility as an explicit trade-off when it constrains modernization.
+- For compatibility-breaking changes, explain the benefit, identify affected
+  consumers and interfaces, and document migration where applicable.
+- Evaluate upstream illumos and OmniOS changes for their fit with Fuso's
+  direction. Distinguish inherited behavior, planned improvements, and changes
+  already implemented when writing documentation or specifications.
+
 ## Agent skills
 
 ### Issue tracker
